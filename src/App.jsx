@@ -3,12 +3,13 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Card from "./Card";
+import Formulario from "./Formulario";
 
 function App() {
   return (
     <div className="App">
-      <h1>Carga de estudiantes</h1>
-      <form></form>
+      <h1>Que variedad de café prefieres?</h1>
+      <Formulario />
       <Card />
     </div>
   );
